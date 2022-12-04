@@ -8,7 +8,7 @@ services:
       - 8081:8081
       - 8082:8082
     volumes:
-      - artifactory-data:/var/opt/jfrog/artifactory
+      - artifactory-volume:/var/opt/jfrog/artifactory
     restart: always
 
 volumes:
